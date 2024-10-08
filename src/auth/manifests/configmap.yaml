@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: auth-configmap
+data:
+  MYSQL_HOST: mysql-host
+  MYSQL_USER: mysql_user
+  MYSQL_DB: mysql-db
+  MYSQL_PORT: "3306"
+
